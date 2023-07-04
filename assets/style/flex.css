@@ -39,8 +39,15 @@
 
 .eventos__item{
     flex-grow: 1;
-    max-width: 400px;
 }
+
+.eventos__botao{
+    padding-top: 1em;
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+
 
 /* AGENDA */
 
@@ -53,7 +60,13 @@
 
 .agenda__item{
     flex-grow: 1;
-    max-width: 400px;
+}
+
+.agenda__botao{
+    padding-top: 1em;
+    list-style: none;
+    display: flex;
+    justify-content: end;
 }
 
 /* footer */
@@ -110,5 +123,20 @@
     }
     .menu__item:nth-child(5){
         order: 2;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .eventos__lista{
+        max-width: 100vw;
+    }
+    .eventos__item{
+        width: 400px !important;
+    }
+    .agenda__lista{
+        max-width: 1680px;
+    }
+    .agenda__item{
+        width: 540px !important;
     }
 }
