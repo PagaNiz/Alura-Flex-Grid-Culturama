@@ -195,7 +195,7 @@ img:hover {
     background-color: var(--cinza-claro);
     width: 307px;
     padding-bottom: 1rem;
-    height: 318px;
+    /* height: 315px; */
 }
 
 .eventos__item img {

@@ -93,7 +93,7 @@
         column-gap: 1.5em;
         row-gap: 1em;
     }
-    /* Eventos */
+    Eventos
     .eventos__lista{
         justify-content: end;
     }
@@ -134,9 +134,8 @@
         width: 400px !important;
     }
     .agenda__lista{
+        justify-content: center;
+        flex-direction: row;
         max-width: 1680px;
-    }
-    .agenda__item{
-        width: 540px !important;
     }
 }
